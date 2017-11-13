@@ -31,7 +31,7 @@ module.exports = {
     "flowtype/require-valid-file-annotation": "error",
     "flowtype/require-variable-type": "error",
     "flowtype/semi": "error",
-    "flowtype/sort-keys": "error",
+    "flowtype/sort-keys": "off", // Way too much work
     "flowtype/space-after-type-colon": "error",
     "flowtype/space-before-generic-bracket": "error",
     "flowtype/space-before-type-colon": "error",
@@ -95,8 +95,7 @@ module.exports = {
     "brace-style": "error",
     "callback-return": "error",
     "camelcase": "warn",
-    "capitalized-comments": "error",
-    "capitalized-comments": "off",
+    "capitalized-comments": "off", // What a stupid rule
     "class-methods-use-this": "error",
     "comma-dangle": ["error", "always-multiline"],
     "comma-spacing": "error",
@@ -315,7 +314,6 @@ module.exports = {
     "semi-style": "error",
     "semi": ["error", "never"],
     "sort-imports": "off", // Not worth the hassle
-    "sort-keys": "error",
     "sort-vars": "off", // I don't like making busy work for myself
     "space-before-blocks": "error",
     "space-before-function-paren": "error",
