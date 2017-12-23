@@ -1,7 +1,7 @@
 {
-  "name": "@unction/{{FQNAME}}",
+  "name": "@unction/isenumerable",
   "version": "1.0.0",
-  "description": "",
+  "description": "Determines if the value is an enumerable and if so returns true, else false",
   "keywords": [
     "unction",
     "functional"
@@ -14,9 +14,9 @@
     }
   ],
   "license": "ISC",
-  "homepage": "https://github.com/unctionjs/{{NAME}}#readme",
-  "repository": "github:unctionjs/{{NAME}}",
-  "bugs": "https://github.com/unctionjs/{{NAME}}/issues",
+  "homepage": "https://github.com/unctionjs/isEnumerable#readme",
+  "repository": "github:unctionjs/isEnumerable",
+  "bugs": "https://github.com/unctionjs/isEnumerable/issues",
   "main": "transpiled/index.js",
   "files": [
     "transpiled/index.js"
@@ -60,5 +60,7 @@
     "nyc": "11.3.0",
     "tap": "11.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@unction/type": "2.8.0"
+  }
 }
