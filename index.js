@@ -1,5 +1,5 @@
 import type from "@unction/type";
-export default function isEnumerable(value) {
+export default function isEnumerable (value) {
   switch (type(value)) {
     case "Array":
     case "Object":
@@ -7,13 +7,13 @@ export default function isEnumerable(value) {
     case "Set":
     case "String":
     case "Stream":
-      {
-        return true;
-      }
+    {
+      return true;
+    }
 
     default:
-      {
-        return false;
-      }
+    {
+      return false;
+    }
   }
 }

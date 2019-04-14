@@ -1,58 +1,58 @@
 /* eslint-disable flowtype/require-return-type */
-import {test} from "tap"
+import {test} from "tap";
 
-import isEnumerable from "./index"
+import isEnumerable from "./index";
 
 test("Array", ({same, end}) => {
   same(
     isEnumerable([]),
     true
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test("Object", ({same, end}) => {
   same(
     isEnumerable({}),
     true
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test("Set", ({same, end}) => {
   same(
     isEnumerable(new Set()),
     true
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test("Map", ({same, end}) => {
   same(
     isEnumerable(new Map()),
     true
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test("String", ({same, end}) => {
   same(
     isEnumerable(""),
     true
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test("Non-enumerable", ({same, end}) => {
   same(
     isEnumerable(false),
     false
-  )
+  );
 
-  end()
-})
+  end();
+});
