@@ -17,7 +17,7 @@
   "homepage": "https://github.com/unctionjs/isEnumerable#readme",
   "repository": "github:unctionjs/isEnumerable",
   "bugs": "https://github.com/unctionjs/isEnumerable/issues",
-  "main": "transpiled/main.js",
+  "main": "main.js",
   "files": [
     "index.js",
     "main.js",
@@ -68,5 +68,5 @@
     "@unction/type": "3.0.0"
   },
   "module": "index.js",
-  "browser": "transpiled/browser.js"
+  "browser": "browser.js"
 }
