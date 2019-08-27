@@ -1,7 +1,7 @@
-/* eslint-disable flowtype/require-return-type */
+
 import {test} from "tap";
 
-import isEnumerable from "./index";
+import isEnumerable from "./";
 
 test("Array", ({same, end}) => {
   same(
