@@ -4,7 +4,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> mixed => Boolean
+> A => Boolean
 
 Determines if the value is an enumerable and if so returns true, else false.
 
