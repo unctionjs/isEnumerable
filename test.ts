@@ -1,5 +1,5 @@
 
-import isEnumerable from "./index.ts";
+import isEnumerable from "./index";
 
 test("Array", () => {
   expect(isEnumerable([])).toEqual(true);
