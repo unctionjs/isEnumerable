@@ -1,6 +1,6 @@
 {
   "name": "@unction/isenumerable",
-  "version": "4.8.0",
+  "version": "4.9.0",
   "description": "Determines if the value is an enumerable and if so returns true, else false",
   "keywords": [
     "unction",
